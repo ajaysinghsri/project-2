@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>project-2</title>
+    <style>
+        nav{
+            position: sticky;
+            top: 0px;
+        }
+        .head{
+            font-size: 20px;
+        }
+        #brand{
+            height: 400px;
+            background-image: url(./public/burger1.jpg);
+            background-size: cover;
+            
+        }
+        .zomato-title{
+            margin-left: 200px;
+            font-size: 80px;
+            font-weight: bold;
+            color: white;
+            margin-top: -100px;
+        }
+        .zomato-dis{
+            font-size: 40px;
+            font-weight: bold;
+            color: white;
+        }
+        #joint{
+            height: 50px;
+        }
+        .online{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .stay{
+            font-size: 20px;
+            font-family: arial;
+        }
+        .order{
+            margin-top: 30px;
+        }
+        .order-1{
+            cursor: grab;
+        }
+        .order-2{
+            cursor: grab;
+        }
+        .order-1:hover{
+            height: 350px;
+            width: 350px;
+            font-size: 30px;
+            transition: 2s;
+        }
+        .order-2:hover{
+            height: 350px;
+            width: 350px;
+            font-size: 30px;
+            transition: 2s;
+        }
+        .para{
+            font-size: 18px;
+            font-family: arial;
+        }
+        .para-2{
+            font-size: 18px;
+            font-family: arial;
+            color: brown;
+        }
+        .dinning{
+            background-image: url(./public/dinning.jpg);
+            background-size: cover;
+            height: 300px;
+            width: 280px;
+            cursor: grab;
+        }
+        .dn-2{
+            padding-top:180px;
+            padding-left: 10px;
+            color: white;
+            font-size: 20px;
+        }
+        .dinning:hover span{
+            margin-left: 10px;
+            transition: 2s;
+        }
+        .restro{
+            background-image: url(./public/restro.jpg);
+            background-size: cover;
+            height: 300px;
+            width: 280px;
+            cursor: grab;
+        }
+        .restro:hover span{
+            margin-left: 10px;
+            transition: 2s;
+        }
+        .buffet{
+            background-image: url(./public/buffets.jpg);
+            background-size: cover;
+            height: 300px;
+            width: 280px;
+            cursor: grab;
+        }
+        .party{
+            background-image: url(./public/party.jpg);
+            background-size: cover;
+            height: 300px;
+            width: 280px;
+            cursor: grab;
+        }
+        .party:hover span{
+            margin-left: 10px;
+            transition: 2s;
+        }
+        .buffet:hover span{
+            margin-left: 10px;
+            transition: 2s;
+        }
+        .arrow{
+            float: right;
+            font-size: 20px;
+            margin-top: -50px;
+        }
+        .place-count{
+            font-size: 20px;
+        }
+        .area{
+            width: 350px;
+            height: 100px;
+        }
+        .zomato-app{
+            font-size: 40px;
+            font-weight: bold; 
+            margin-top: 30px;        
+        }
+        .zomato-para{
+            font-size: 20px;
+            font-family: arial;
+            margin-top: 20px;
+        }
+        .text{
+            height: 50px;
+        }
+        .phone{
+            font-size: 20px;
+        }
+        #ver-1{
+            margin-top: 60px;
+        }
+        #aaa{
+            height: 400px;
+        }
+        .accordion{
+            font-size: 20px;
+        }
+        #accord-1{
+            margin-top: 40px;
+        }
+        .zomato-2{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .brand-name{
+            font-size: 35px;
+            font-weight: bold;
+        }
+        ol{
+            list-style: none;
+        }
+       #last{
+        margin-top: 60px;
+       }
+       
+
+    </style>
+    <title>zomato</title>
+</head>
+<body class="container-fluid bg-light">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+        <nav>
+            <div class="row mt-2 bg-dark" >
+                <div class="col-md-5" id="row-1">
+                    <button class="btn btn-primary head"><span><i class="bi bi-google-play me-2 text-dark"></i></span>get the app</button>
+                </div>
+                <div class="col-md-6 d-flex justify-content-evenly" id="row-2">
+                    <div>
+                        <button class="btn btn-primary head">Investor relations</button>
+                    </div>
+                    <div>
+                        <button class="btn btn-primary head">add restaurent</button>
+                    </div>
+                    <div>
+                        <button class="btn btn-primary head">Log in</button>
+                    </div>
+                    <div>
+                        <button class="btn btn-primary head">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <header>   
+        <div class="row mt-1">
+            <div class="col-md-12">
+                <div class="carousel slide carousel-dark" id="banner" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item ">
+                            <img src="./public/burger2.jpg" height="400px" class="w-100 d-block"> 
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./public/burger3.jpg"  height="400px" class="w-100 d-block">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./public/burger4.jpg" height="400px" class="w-100 d-block">
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="d-flex justify-content-center align-items-center" id="brand">
+                              <div>
+                                <div class="zomato-title">zomato</div>
+                                <div class="zomato-dis">Discover the best food & drinks in Gorakhpur</div>
+                                <div class="input-group mt-3" id="joint">
+                                    <span class="input-group-text"><i class="bi bi-geo-alt"></i></span>
+                                    <select class="form-select">
+                                        <option>golghar,gorakhpur</option>
+                                    </select>
+                                    <span class="input-group-text"><i class="bi bi-search"></i></span>
+                                    <input type="text" name="text" placeholder="search for restaurent,cruisine & for dish" class="form-control">
+                                </div>
+                                
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button data-bs-slide="prev" data-bs-target="#banner" class="carousel-control-prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-slide="next" data-bs-target="#banner" class="carousel-control-next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button data-bs-slide-to="0" data-bs-target="#banner"></button>
+                        <button data-bs-slide-to="1" data-bs-target="#banner"></button>
+                        <button data-bs-slide-to="2" data-bs-target="#banner"></button>
+                        <button  class="active" data-bs-slide-to="2" data-bs-target="#banner"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--section start-->
+    <section>
+        <div class="row justify-content-evenly order">
+            <div class="col-md-3 border border-2 order-1 ">
+                <div>
+                    <div>
+                       <img src="./public/noodels.jpg" width="100%" height="200px">
+                    </div>   
+                    <div>
+                        <p class="online mt-2">order online</p>
+                        <p class="stay">stay home and order to your doorstep</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 border border-2 order-2">
+                <div>
+                    <div>
+                        <img src="./public/bars.jpg" width="100%" height="200px">
+                    </div>
+                    <div>
+                        <p class="online mt-2">bars</p>
+                        <p class="stay">view the city favourite dining</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 border border-2 order-2">
+                <div>
+                    <div>
+                        <img src="./public/night.jpg" width="100%" height="200px">
+                    </div>
+                    <div>
+                        <p class="online mt-2">night club</p>
+                        <p class="stay">explore the city,s top nightlife outlets </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--collection-->
+        <div class="row mt-4 p-2">
+            <div class="col-md-11">
+                <h1 class="ms-3">collection</h1>
+                <div class="d-flex justify-content-between ms-3">
+                    <div>
+                        <p class="para">Explore curated lists of top restaurants, cafes, pubs, and bars in Pune, based on trends</p>
+                    </div>
+                    <div>
+                        <p class="para-2">all collection in pune<span><i class="bi bi-arrow-bar-right ms-2"></i></span></p> 
+                    </div>
+                </div>
+                <div class="d-flex justify-content-evenly ms-4">
+                    <div class="dinning border border-3">
+                        <div class="dn-2">
+                            <h3 class="text-white">9 romantic places dining places</h3>
+                            <p>9 places<span><i class="bi bi-arrow-bar-right ms-2"></i></span></p>
+                        </div>
+                    </div>
+                    <div class="restro border border-3 ms-3">
+                        <div class="dn-2">
+                            <h3 class="text-white">10 newly opened restraurents</h3>
+                            <p>10 places<span><i class="bi bi-arrow-bar-right ms-2"></i></span></p>
+                        </div>
+                    </div>
+                    <div class="buffet border border-3 ms-3">
+                        <div class="dn-2">
+                            <h3 class="text-white">8 great buffet in town</h3>
+                            <p>8 places<span><i class="bi bi-arrow-bar-right ms-2"></i></span></p>
+                        </div>
+                    </div>
+                    <div class="party border border-3 ms-3">
+                        <div class="dn-2">
+                            <h3 class="text-white">14 lit party places</h3>
+                            <p>14 places<span><i class="bi bi-arrow-bar-right ms-2"></i></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--detail-->
+        <div class="row mt-4 ms-4">
+            <div class="col-md-11 p-4">
+                <h3>Popular localities in and around gorakhpur</h3>
+                <div class="dropend d-flex justify-content-evenly mt-4">
+                    <div>
+                        <div class="area border border-3 rounded rounded-1 p-2">
+                            <div><h3>banner</h3></div>
+                            <div class="place-count">482 places</div>
+                            <div class="arrow"><i class="bi bi-arrow-bar-right"></i></div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="area border border-3 rounded rounded-1 p-2">
+                            <div><h3>mohhadipur</h3></div>
+                            <div class="place-count">482 places</div>
+                            <div class="arrow"><i class="bi bi-arrow-bar-right"></i></div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="area border border-3 rounded rounded-1 p-2">
+                            <div><h3>golghar</h3></div>
+                            <div class="place-count">482 places</div>
+                            <div class="arrow"><i class="bi bi-arrow-bar-right"></i></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="area border border-3 rounded rounded-1 p-2">
+                            <div><h3>MMM collage</h3></div>
+                            <div class="place-count">482 places</div>
+                            <div class="arrow"><i class="bi bi-arrow-bar-right"></i></div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="area border border-3 rounded rounded-1 p-2">
+                            <div><h3>kunraghat</h3></div>
+                            <div class="place-count">482 places</div>
+                            <div class="arrow"><i class="bi bi-arrow-bar-right"></i></div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="area border border-3 rounded rounded-1 p-2">
+                            <div><h3>shatri chok</h3></div>
+                            <div class="place-count">482 places</div>
+                            <div class="arrow"><i class="bi bi-arrow-bar-right"></i></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="area border border-3 rounded rounded-1 p-2">
+                            <div><h3>paidleganj</h3></div>
+                            <div class="place-count">482 places</div>
+                            <div class="arrow"><i class="bi bi-arrow-bar-right"></i></div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="area border border-3 rounded rounded-1 p-2">
+                            <div><h3>indra vihar</h3></div>
+                            <div class="place-count">482 places</div>
+                            <div class="arrow"><i class="bi bi-arrow-bar-right"></i></div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="area border border-3 rounded rounded-1 p-2">
+                            <div><h3>taramandal</h3></div>
+                            <div class="place-count">482 places</div>
+                            <div class="arrow"><i class="bi bi-arrow-bar-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+        <!--zomato app-->
+        <div class="row ms-4" id="ver-1">
+            <div class="col-md-4 p-2 ">
+                <div>
+                    <img src="./public/mobile.jpg" width="100%">
+                </div>
+            </div>
+            <div class="col-md-7 p-2 ms-2">
+                <div>
+                    <div class="zomato-app">get the zomato app</div>
+                    <div class="zomato-para">We will send you a link, open it on your phone to download<br>the app</div>
+                    <br>
+                    <div class="phone mt-4">
+                        <input type="radio" name="email" class="form-check-input">&nbsp;&nbsp;email
+                        <span>
+                            <input type="radio" name="email" class="form-check-input ms-4">&nbsp;&nbsp;phone
+                        </span>
+                    </div>
+                    <div class="input-group mt-4 w-75 text">                      
+                        <input type="email" name="email-id" placeholder="email" class="form-control">
+                        <button class="btn btn-danger text-white">share app link</button>
+                    </div>
+                    <div class="zomato-para">
+                        download app from
+                    </div>
+                    <div class="d-flex mt-4">
+                        <div><button class="btn"><img src="./public/google.jpg" width="150px"></button></div>
+                        <div><button class="btn mt-3"><img src="./public/apple.jpg" width="150px"></button></div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--accordian-->
+        <div class="row ms-4" id="accord-1">
+            <div class="col-md-11">
+                <h1>explore option nears me</h1>
+                <div class="accordion mt-4 " id="faqs">
+                    <div class="accordion-item ">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#q1">
+                                popular cruisine near me
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse show" id="q1" data-bs-parent="#faqs">
+                            <div class="accordion-body">
+                                <p>Bakery food near meBeverages food near meBiryani food near meBurger food near meChinese food near meContinental food near meDesserts food near meIce Cream food near meKebab food near meMaharashtrian food near meMughlai food near meNorth Indian food near mePizza food near meRolls food near meSandwich food near meSeafood food near meShake food near meSichuan food near meSouth Indian food near meStreet food near me</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#q2">
+                                popular restaurant type near me
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse" id="q2" data-bs-parent="#faqs">
+                            <div class="accordion-body">
+                                <p>Bakery food near meBeverages food near meBiryani food near meBurger food near meChinese food near meContinental food near meDesserts food near meIce Cream food near meKebab food near meMaharashtrian food near meMughlai food near meNorth Indian food near mePizza food near meRolls food near meSandwich food near meSeafood food near meShake food near meSichuan food near meSouth Indian food near meStreet food near me</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#q3">
+                                top restaurant chain
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse " id="q3" data-bs-parent="#faqs">
+                            <div class="accordion-body">
+                                <p>Bakery food near meBeverages food near meBiryani food near meBurger food near meChinese food near meContinental food near meDesserts food near meIce Cream food near meKebab food near meMaharashtrian food near meMughlai food near meNorth Indian food near mePizza food near meRolls food near meSandwich food near meSeafood food near meShake food near meSichuan food near meSouth Indian food near meStreet food near me</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#q3">
+                                cities we deliver to
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse " id="q3" data-bs-parent="#faqs">
+                            <div class="accordion-body">
+                                <p>Bakery food near meBeverages food near meBiryani food near meBurger food near meChinese food near meContinental food near meDesserts food near meIce Cream food near meKebab food near meMaharashtrian food near meMughlai food near meNorth Indian food near mePizza food near meRolls food near meSandwich food near meSeafood food near meShake food near meSichuan food near meSouth Indian food near meStreet food near me</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer>
+        <div class="row " id="last">
+            <div class="col-md-12 bg-dark  text-white">
+                <div class="d-flex justify-content-between mt-4 p-2">
+                    <div class="brand-name">
+                        <p>zomato</p>
+                    </div>
+                    <div class="d-flex">
+                        <div>
+                        
+                            <div class="dropend me-4">
+                            
+                                <button data-bs-toggle="dropdown" class="btn btn-success dropdown-toggle">
+                                
+                                    <span><i class="bi bi-globe-central-south-asia"></i></span>
+                                
+                                    INDIA
+                            
+                                </button>
+                            
+                                <ul class="dropdown-menu">
+                            
+                                    <li class="dropdown-item"><span class="dropdown-item-text">newzeland</span></li>
+                            
+                                    <li class="dropdown-item"><span class="dropdown-item-text">america</span></li>
+                            
+                                    <li class="dropdown-item"><span class="dropdown-item-text">australia</span></li>
+                            
+                                </ul>
+                            </div>    
+                        </div>  
+                        <div class="">
+                        
+                            <div class="dropend">
+                            
+                                <button data-bs-toggle="dropdown" class="btn btn-success dropdown-toggle">
+                                
+                                    <span><i class="bi bi-globe"></i></span>
+                                
+                                    ENGLISH
+                            
+                                </button>
+                            
+                                <ul class="dropdown-menu">
+                            
+                                    <li class="dropdown-item"><span class="dropdown-item-text">hindi</span></li>
+                            
+                                    <li class="dropdown-item"><span class="dropdown-item-text">spanish</span></li>
+                            
+                                    <li class="dropdown-item"><span class="dropdown-item-text">telugu</span></li>
+                            
+                                </ul>
+                            </div>    
+                        </div>                                                         
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between mt-4 p-2">
+                    <div>
+                        <ol>
+                            <li class="zomato-2">about zomato</li>
+                            <li>Who We Are</li>
+
+                            <li>Blog</li>
+                            
+                           <li> Work With Us</li>
+                            
+                           <li> Investor Relations</li>
+                            
+                           <li> Report Fraud</li>
+                            
+                            <li>Contact Us</li>
+                        </ol>
+                    </div>
+                    <div>
+                        <ol>
+                            <li class="zomato-2">zomaverse</li>
+                            <li>zomato</li>
+
+                            <li>blinkit</li>
+                            
+                           <li> feeding</li>
+                            
+                           <li> zoomaland</li>
+                            
+                           <li>hyperpure </li>
+                            
+                            
+                        </ol>
+                    </div>
+                    <div>
+                        <ol>
+                            <li class="zomato-2">learn more</li>
+                            <li>security</li>
+
+                            <li>privacy</li>
+                            
+                           <li> sitmap</li>
+                            
+                           <li> terms</li>
+                            
+                           <li> condition</li>
+                            
+                            
+                        </ol>
+                    </div>
+                    <div>
+                        <ol>
+                            <li class="zomato-2">for restaurant</li>
+                            <li> partner with us</li>
+
+                            <li>app for you</li>
+                        </ol>
+                        <ol>
+                            <li class="zomato-2"> for enterprises</li>
+                            <li>work with us</li>
+                        </ol>
+                    </div>
+                    <div>
+                        <div class="zomato-2">social link</div>
+                        <div>
+                            <span><i class="bi bi-instagram"></i></span>
+                            <span><i class="bi bi-facebook ms-1"></i></span>
+                            <span><i class="bi bi-messenger ms-1"></i></span>
+                            <span><i class="bi bi-twitter ms-1"></i></span>
+                        </div>
+                        <div>
+                            <button class="btn"><img src="./public/google.jpg" width="150" height="70"> </button>
+                        </div>
+                        <div>
+                            <button class="btn"><img src="./public/apple.jpg" width="150px" height="50px"> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
